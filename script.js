@@ -153,3 +153,10 @@ while (contatore <3) {
     console.log("Conto: " + contatore)
     contatore++;
 }
+
+let numeroCasuale = Math.random();
+let tentativi = 0;
+
+while (numeroCasuale < 0.9) {
+    console.log("Numero casuale: " +numeroCasuale + numeroCasuale.toFixed(2))
+}
